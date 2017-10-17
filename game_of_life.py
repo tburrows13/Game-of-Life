@@ -4,7 +4,7 @@ import pygame
 from tools import import_grid, save_grid, check_time
 
 EXPORT_FILE = "Save"
-FILE = "Backrake"
+FILE = "demo_levels/Backrake"
 
 DEAD_COLOR = (255, 0, 0)
 ALIVE_COLOR = (0, 255, 0)

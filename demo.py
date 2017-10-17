@@ -16,6 +16,6 @@ while True:
         if level != previous:
             previous = level
             break
-    var = Game(level).start()
+    var = Game("demo_levels/" + level).start()
     if var:
         break

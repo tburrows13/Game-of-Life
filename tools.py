@@ -4,7 +4,7 @@ import time
 def import_grid(file_to_open):
     grid = []
     print(file_to_open)
-    with open("demo_levels/" + file_to_open) as file:
+    with open(file_to_open) as file:
         for i, line in enumerate(file):
             if i == 0:
                 iterations = int(line.split(" ")[0])
